@@ -13,6 +13,6 @@ public class Containsx
 	   driver.get("file:///C:/Selenium/Locators/ind_dep.html");
 	   String collection=driver.findElement(By.xpath("(//td[text()='hebbuli']/../td)[3]")).getText();
 	   System.out.println(collection);
-	   
+	   //git
    }
 }
